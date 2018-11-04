@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/osx,linux,django
-# Edit at https://www.gitignore.io/?templates=osx,linux,django
+# Created by https://www.gitignore.io/api/osx,linux,django,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=osx,linux,django,visualstudiocode
 
 ### Django ###
 *.log
@@ -169,4 +169,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/osx,linux,django
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# End of https://www.gitignore.io/api/osx,linux,django,visualstudiocode
