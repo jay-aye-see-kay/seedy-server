@@ -35,19 +35,22 @@ class Asset(models.Model):
     location = models.ForeignKey(
         Location,
         blank=True,
-        default='',
+        null=True,
+        default=None,
         on_delete=models.SET_DEFAULT,
     )
     asset_type = models.ForeignKey(
         AssetType,
         blank=True,
-        default='',
+        null=True,
+        default=None,
         on_delete=models.SET_DEFAULT,
     )
     brand = models.ForeignKey(
         Brand,
         blank=True,
-        default='',
+        null=True,
+        default=None,
         on_delete=models.SET_DEFAULT,
     )
 
